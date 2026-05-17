@@ -1,26 +1,30 @@
-# 🛒 Retail Sales Performance Analysis
+🛒 Retail Sales Performance Analysis
+📌 Overview
 
-## 📌 Overview
-This project analyzes retail transaction data to uncover sales trends, customer behavior, and business insights using Python (Pandas).
+This project performs end-to-end analysis on retail transaction data to identify revenue trends, customer behavior, and actionable business insights using Python (Pandas).
 
-## 📊 Key Features
-- Data cleaning and preprocessing
-- Feature engineering (time-based & customer segmentation)
-- Revenue analysis by category, gender, and time
-- Customer behavior analysis
-- Data visualization using Matplotlib
-
-## 📈 Key Insights
-- Electronics category generated highest revenue
-- Female customers contributed slightly more sales
-- May recorded peak sales (seasonal demand)
-- Weekend sales are higher than weekdays
-- Adults are the most valuable customer segment
-
-## 🛠 Tools Used
-- Python
-- Pandas
-- Matplotlib
-
-## 🚀 Outcome
-Generated actionable business insights and exported cleaned datasets.
+📊 Key Features
+Performed data cleaning and preprocessing (handled duplicates, datatype conversion)
+Engineered new features such as Year, Month, Day Type, Age Group, and Order Priority
+Conducted revenue analysis across product categories, gender, and time dimensions
+Identified high-value transactions and customer segments
+Built visualizations using Matplotlib to uncover trends and patterns
+📈 Key Insights & Business Recommendations
+Electronics generated the highest revenue, indicating strong demand → Recommend increasing inventory and targeted marketing in this category
+Female customers contributed slightly higher total sales, suggesting potential for targeted campaigns and personalized offers
+May recorded peak revenue (seasonal trend) → Business should plan promotions and stock in advance during this period
+Weekend sales are higher than weekdays, indicating increased customer activity → Optimize staffing and marketing during weekends
+Adults (25–45) are the highest spending segment → Focus loyalty programs and premium offerings on this group
+📊 Key Metrics
+Total Transactions: 1000+
+Dataset Size: ~1000 rows × 9+ columns
+Top Performing Category: Electronics
+Peak Sales Month: May
+🛠 Tools Used
+Python
+Pandas
+Matplotlib
+🚀 Outcome
+Delivered end-to-end data analysis pipeline from raw data to insights
+Generated actionable business recommendations for improving revenue
+Exported cleaned datasets and summary reports for further use
