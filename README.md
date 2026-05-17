@@ -50,22 +50,16 @@ This project analyzes retail transaction data (1000+ records) to uncover sales t
 
 ## 📁 Project Structure
 
-retail-sales-analysis-python/
-│
-├── analysis.ipynb # Main analysis notebook
-├── outputs/ # Cleaned data & summary files
-│ ├── cleaned_retail_data.csv
-│ └── category_summary.csv
-│
-├── visuals/ # Charts and graphs
-│ ├── Revenue_by_Product_Category.png
-│ ├── Monthly_Trends.png
-│ └── Gender_Comparison.png
-│
-├── README.md # Project documentation
-└── LICENSE
-
-
+- `analysis.ipynb` – Main analysis notebook  
+- `outputs/` – Contains cleaned datasets and summary files  
+  - `cleaned_retail_data.csv`  
+  - `category_summary.csv`  
+- `visuals/` – Contains charts and graphs  
+  - Revenue by Product Category  
+  - Monthly Trends  
+  - Gender Comparison  
+- `README.md` – Project documentation  
+- `LICENSE`
 
 ---
 
