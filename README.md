@@ -54,9 +54,16 @@ retail-sales-analysis-python/
 │
 ├── analysis.ipynb # Main analysis notebook
 ├── outputs/ # Cleaned data & summary files
+│ ├── cleaned_retail_data.csv
+│ └── category_summary.csv
+│
 ├── visuals/ # Charts and graphs
+│ ├── Revenue_by_Product_Category.png
+│ ├── Monthly_Trends.png
+│ └── Gender_Comparison.png
+│
 ├── README.md # Project documentation
-
+└── LICENSE
 
 ---
 
